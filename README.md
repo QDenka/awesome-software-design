@@ -18,113 +18,128 @@
 
 ## Architecture Patterns
 
-- [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Robert C. Martin's original post on Clean Architecture.
-- [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) - Alistair Cockburn's definition of Ports and Adapters pattern.
-- [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) - Jeffrey Palermo's introduction to the Onion Architecture.
+- [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Robert C. Martin's original post on Clean Architecture with dependency rule.
+- [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) - Alistair Cockburn's definition of the Ports and Adapters pattern.
+- [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) - Jeffrey Palermo's layered architecture with domain at the core.
 - [CQRS](https://martinfowler.com/bliki/CQRS.html) - Martin Fowler's explanation of Command Query Responsibility Segregation.
-- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - Martin Fowler's article on Event Sourcing pattern.
-- [Modular Monolith](https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer) - Kamil Grzybek's primer on Modular Monolith architecture.
-- [Microservices](https://microservices.io/) - Chris Richardson's patterns and best practices for microservices.
-- [ecotone-dev/ecotone](https://github.com/ecotone-dev/ecotone-dev) - PHP framework supporting CQRS, Event Sourcing, and Modular Monolith.
-- [jorge07/symfony-6-es-cqrs](https://github.com/jorge07/symfony-6-es-cqrs) - Symfony 6 boilerplate with CQRS and Event Sourcing implementation.
-- [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Go DDD example with Clean Architecture and CQRS.
-- [herbertograca/php-medieval-game](https://github.com/hgraca/explicit-architecture-php) - Explicit Architecture (Ports & Adapters + Clean Arch) in PHP.
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems with architecture patterns overview.
+- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - Storing state as a sequence of domain events instead of current state.
+- [Modular Monolith](https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer) - Kamil Grzybek's primer on building modular monolith systems.
+- [Microservices Patterns](https://microservices.io/) - Chris Richardson's catalog of microservice architecture patterns.
+- [Serverless Patterns Collection](https://serverlessland.com/patterns) - AWS curated collection of serverless architecture patterns.
+- [Azure Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) - Microsoft's cloud design patterns for scalable and reliable applications.
+- [AWS Cloud Design Patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) - Amazon's prescriptive guidance on cloud architecture patterns.
+- [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) - WSO2's reference architecture for cell-based distributed systems.
+- [hgraca/explicit-architecture-php](https://github.com/hgraca/explicit-architecture-php) - Explicit Architecture (Ports & Adapters + Clean Arch) demo in PHP.
+- [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Go DDD example with Clean Architecture, CQRS, and gRPC.
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Large-scale system design with architecture patterns overview.
+- [jorge07/ddd-playground](https://github.com/jorge07/ddd-playground) - Symfony DDD playground with CQRS and Event Sourcing.
 
 ## Architecture Decision Records (ADR)
 
-- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - Comprehensive collection of ADR templates and examples.
-- [npryce/adr-tools](https://github.com/npryce/adr-tools) - Command-line tools for working with Architecture Decision Records.
-- [adr/madr](https://github.com/adr/madr) - Markdown Any Decision Records — lean ADR template.
-- [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) - Michael Nygard's original blog post that popularized ADRs.
-- [adr/adr.github.io](https://adr.github.io/) - Homepage of the ADR GitHub organization with tooling overview.
-- [log4brains](https://github.com/thomvaill/log4brains) - Docs-as-code knowledge base for ADRs with web UI.
-- [mrk21/adr-viewer](https://github.com/mrk21/adr-viewer) - Generate a website from your Architecture Decision Records.
+- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - Comprehensive collection of ADR templates and real-world examples.
+- [npryce/adr-tools](https://github.com/npryce/adr-tools) - Command-line tools for managing Architecture Decision Records.
+- [adr/madr](https://github.com/adr/madr) - Markdown Any Decision Records — lightweight ADR template format.
+- [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) - Michael Nygard's original blog post that started the ADR movement.
+- [adr.github.io](https://adr.github.io/) - Central hub of the ADR GitHub organization with tools and resources.
+- [log4brains](https://github.com/thomvaill/log4brains) - Docs-as-code knowledge base for ADRs with auto-generated web UI.
+- [adr/e-adr](https://github.com/adr/e-adr) - Embedded Architectural Decision Records for embedding ADRs in code.
+- [Kubernetes KEPs](https://github.com/kubernetes/enhancements/tree/master/keps) - Kubernetes Enhancement Proposals — real-world ADR examples at scale.
+- [Spotify ADR Practice](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/) - Spotify engineering on when and how to write ADRs.
+- [GOV.UK RFCs](https://github.com/alphagov/govuk-rfcs) - UK Government Digital Service architecture decision records.
 
 ## Design Patterns
 
-- [Refactoring.Guru](https://refactoring.guru/design-patterns) - Visual catalog of all GoF design patterns with code examples.
-- [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) - Collection of known design patterns implemented in PHP.
+- [Refactoring.Guru](https://refactoring.guru/design-patterns) - Visual catalog of all GoF design patterns with code in 10+ languages.
+- [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) - All known design patterns implemented in PHP with real-world examples.
+- [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - Design patterns explained in plain English with real-world analogies.
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes, and idioms.
-- [domnikl/algorithms-and-design-patterns](https://github.com/domnikl/DesignPatternsPHP) - Another take on GoF patterns in PHP with real-world examples.
+- [luk4z7/go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide) - Practical guide to Go concurrency patterns with examples.
 - [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Extensive collection of design patterns implemented in Java.
+- [Source Making — Design Patterns](https://sourcemaking.com/design_patterns) - Comprehensive reference with UML diagrams and code examples.
 - [Tactical DDD Patterns](https://vaadin.com/blog/ddd-part-3-domain-driven-design-and-the-hexagonal-architecture) - Combining DDD tactical patterns with Hexagonal Architecture.
-- [Source Making — Design Patterns](https://sourcemaking.com/design_patterns) - Comprehensive reference for design patterns with UML and examples.
-- [phalcon/patterns](https://github.com/kamranahmedse/design-patterns-for-humans) - Design patterns explained in plain English with real-world examples.
-- [marcel-dempers/go-microservice-pattern](https://github.com/ThreeDotsLabs/watermill) - Go library for building event-driven apps using Pub/Sub, CQRS, and Event Sourcing patterns.
+- [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Go library for event-driven apps using Pub/Sub, CQRS, and Event Sourcing.
 
 ## System Design
 
-- [System Design Primer](https://github.com/donnemartin/system-design-primer) - Comprehensive resource for learning system design with real examples.
-- [ByteByteGo](https://bytebytego.com/) - Alex Xu's system design course with visual explanations.
-- [API Design Guide by Google](https://cloud.google.com/apis/design) - Google's API design guidelines for resource-oriented APIs.
+- [ByteByteGo](https://bytebytego.com/) - Alex Xu's system design course with visual explanations of distributed systems.
+- [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) - Learn system design fundamentals with illustrated explanations.
+- [High Scalability](https://highscalability.com/) - Real-world architecture case studies from top tech companies.
+- [API Design Guide by Google](https://cloud.google.com/apis/design) - Google's resource-oriented API design guidelines.
 - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines) - Microsoft's recommendations for designing RESTful APIs.
-- [Use The Index, Luke](https://use-the-index-luke.com/) - A guide to database indexing and SQL performance for developers.
-- [Redis Best Practices](https://redis.io/docs/latest/develop/get-started/) - Official Redis documentation for caching strategies and patterns.
-- [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) - Official tutorials covering message queue patterns and use cases.
-- [Apache Kafka Documentation](https://kafka.apache.org/documentation/) - Complete documentation for Apache Kafka distributed streaming platform.
-- [Rate Limiting Strategies](https://cloud.google.com/architecture/rate-limiting-strategies-techniques) - Google Cloud guide to rate limiting techniques.
-- [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) - Learn system design with illustrated explanations.
-- [Designing Data-Intensive Applications (notes)](https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md) - Community notes on Martin Kleppmann's DDIA book.
+- [Use The Index, Luke](https://use-the-index-luke.com/) - SQL indexing and performance tuning guide for developers.
+- [Redis Best Practices](https://redis.io/docs/latest/develop/get-started/) - Official Redis documentation for caching strategies and data structures.
+- [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) - Official tutorials covering messaging patterns and queue topologies.
+- [Apache Kafka Documentation](https://kafka.apache.org/documentation/) - Complete documentation for Kafka distributed streaming platform.
+- [Rate Limiting Strategies](https://cloud.google.com/architecture/rate-limiting-strategies-techniques) - Google Cloud guide to rate limiting algorithms and techniques.
+- [DDIA Notes](https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md) - Community notes on Martin Kleppmann's Designing Data-Intensive Applications.
 
 ## Architecture Documentation
 
-- [C4 Model](https://c4model.com/) - Simon Brown's C4 model for visualizing software architecture.
-- [Structurizr](https://structurizr.com/) - Architecture models as code using the C4 model.
-- [Structurizr DSL](https://github.com/structurizr/dsl) - A text-based DSL for the Structurizr C4 model.
-- [Mermaid](https://github.com/mermaid-js/mermaid) - JavaScript-based diagramming and charting tool rendered from Markdown.
-- [PlantUML](https://plantuml.com/) - Open-source tool to draw UML diagrams from plain text.
-- [arc42](https://arc42.org/) - Template for architecture documentation, pragmatic and practical.
-- [Diagrams as Code (Mingrammer)](https://github.com/mingrammer/diagrams) - Draw cloud system architecture diagrams in Python code.
+- [C4 Model](https://c4model.com/) - Simon Brown's four-level model for visualizing software architecture.
+- [Structurizr](https://structurizr.com/) - Architecture models as code using the C4 model approach.
+- [Structurizr DSL](https://github.com/structurizr/dsl) - Text-based DSL for defining C4 model architecture diagrams.
+- [D2 Language](https://d2lang.com/) - Modern declarative diagramming language that compiles to SVG.
+- [Terrastruct](https://terrastruct.com/) - Platform for creating and maintaining architecture diagrams with D2.
+- [Mermaid](https://github.com/mermaid-js/mermaid) - JavaScript-based diagramming tool rendered from Markdown-like syntax.
+- [PlantUML](https://plantuml.com/) - Open-source tool to generate UML diagrams from plain text descriptions.
+- [arc42](https://arc42.org/) - Pragmatic template for documenting software and system architecture.
+- [Diagrams as Code](https://github.com/mingrammer/diagrams) - Draw cloud architecture diagrams in Python with provider icons.
+- [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) - Validate and visualize JS/TS module dependencies against architecture rules.
 - [Ilograph](https://www.ilograph.com/) - Interactive architecture diagrams with multi-perspective views.
 
 ## Architecture Testing & Fitness Functions
 
-- [qossmic/deptrac](https://github.com/qossmic/deptrac) - PHP static analysis tool to enforce architectural boundaries between layers.
-- [phparkitect/arkitect](https://github.com/phparkitect/arkitect) - Define and test architecture rules in PHP with expressive DSL.
-- [TNG/ArchUnit](https://github.com/TNG/ArchUnitNET) - .NET library for checking architecture rules in unit tests.
-- [TNG/ArchUnit (Java)](https://github.com/TNG/ArchUnit) - Java library to test architecture rules as unit tests.
-- [Building Evolutionary Architectures](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on fitness function-driven development.
-- [ta-tyshchenko/phpat](https://github.com/carlosas/phpat) - PHP Architecture Tester — easy-to-use architecture testing tool.
-- [PHPStan](https://phpstan.org/) - Static analysis tool for PHP that catches bugs and enforces code quality.
-- [Psalm](https://psalm.dev/) - PHP static analysis tool focused on type-related bugs.
+- [qossmic/deptrac](https://github.com/qossmic/deptrac) - PHP static analysis to enforce architectural layer boundaries.
+- [phparkitect/arkitect](https://github.com/phparkitect/arkitect) - Define and test PHP architecture rules with expressive DSL.
+- [carlosas/phpat](https://github.com/carlosas/phpat) - PHP Architecture Tester — assert architectural rules in PHPUnit.
+- [pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch) - Laravel Pest plugin for expressive architecture testing.
+- [TNG/ArchUnit](https://github.com/TNG/ArchUnit) - Java library to check architecture constraints as unit tests.
+- [TNG/ArchUnitNET](https://github.com/TNG/ArchUnitNET) - .NET port of ArchUnit for testing architecture rules in C#.
+- [fdaines/arch-go](https://github.com/fdaines/arch-go) - Architecture testing tool for Go projects.
+- [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks on using fitness functions to guide architecture evolution.
+- [PHPStan](https://phpstan.org/) - PHP static analysis tool for finding bugs without running code.
+- [Psalm](https://psalm.dev/) - PHP static analysis focused on type safety and bug prevention.
 
 ## Domain-Driven Design
 
-- [Domain-Driven Design Reference](https://www.domainlanguage.com/ddd/reference/) - Eric Evans' DDD reference definitions.
-- [ddd-crew/ddd-starter-modelling-process](https://github.com/ddd-crew/ddd-starter-modelling-process) - Step-by-step guide to DDD modelling.
-- [ddd-crew/bounded-context-canvas](https://github.com/ddd-crew/bounded-context-canvas) - A collaborative tool for designing bounded contexts.
-- [ddd-crew/context-mapping](https://github.com/ddd-crew/context-mapping) - Context Mapping patterns and examples.
-- [Vaughn Vernon's IDDD Samples](https://github.com/VaughnVernon/IDDD_Samples) - Implementing Domain-Driven Design sample code in Java.
-- [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini's collaborative modeling technique.
-- [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - A comprehensive DDD example in Java — library lending system.
-- [jorge07/modular-monolith-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD in C# by Kamil Grzybek.
-- [codelytv/php-ddd-example](https://github.com/CodelyTV/php-ddd-example) - PHP DDD example with Hexagonal Architecture.
-- [patchlevel/event-sourcing](https://github.com/patchlevel/event-sourcing) - PHP Event Sourcing library with DDD in mind.
+- [DDD Reference](https://www.domainlanguage.com/ddd/reference/) - Eric Evans' official DDD pattern language reference.
+- [ddd-crew/ddd-starter-modelling-process](https://github.com/ddd-crew/ddd-starter-modelling-process) - Step-by-step guide to start DDD modelling in a team.
+- [ddd-crew/bounded-context-canvas](https://github.com/ddd-crew/bounded-context-canvas) - Collaborative tool for designing and documenting bounded contexts.
+- [ddd-crew/context-mapping](https://github.com/ddd-crew/context-mapping) - Context Mapping patterns with visual examples.
+- [Vaughn Vernon's IDDD Samples](https://github.com/VaughnVernon/IDDD_Samples) - Sample code from Implementing Domain-Driven Design in Java.
+- [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini's collaborative domain discovery technique.
+- [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven information systems.
+- [Miro DDD Bounded Context Canvas](https://miro.com/miroverse/ddd-bounded-context-canvas/) - Ready-to-use Miro template for DDD bounded context workshops.
+- [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - Comprehensive DDD example in Java — library lending domain.
+- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD implementation in C#.
+- [CodelyTV/php-ddd-example](https://github.com/CodelyTV/php-ddd-example) - PHP DDD example with Hexagonal Architecture and CQRS.
+- [patchlevel/event-sourcing](https://github.com/patchlevel/event-sourcing) - PHP Event Sourcing library designed with DDD principles.
 
 ## Books
 
-- [Domain-Driven Design by Eric Evans](https://www.domainlanguage.com/ddd/) - The foundational book on Domain-Driven Design.
-- [Clean Architecture by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture) - A guide to software structure and design principles.
-- [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/) - Essential book on distributed systems and data architecture.
-- [Building Microservices by Sam Newman](https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/) - Designing fine-grained systems with microservices.
-- [Patterns of Enterprise Application Architecture by Martin Fowler](https://martinfowler.com/books/eaa.html) - Classic reference for enterprise architecture patterns.
-- [Implementing Domain-Driven Design by Vaughn Vernon](https://www.goodreads.com/book/show/15756865-implementing-domain-driven-design) - Practical guide to implementing DDD.
-- [Software Architecture: The Hard Parts by Neal Ford et al.](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) - Modern trade-off analysis for distributed architectures.
-- [A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) - How to decompose complex software into manageable modules.
-- [Fundamentals of Software Architecture by Mark Richards & Neal Ford](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) - Comprehensive guide to architecture styles and characteristics.
+- [Domain-Driven Design — Eric Evans](https://www.domainlanguage.com/ddd/) - The foundational "Blue Book" on Domain-Driven Design.
+- [Implementing Domain-Driven Design — Vaughn Vernon](https://www.goodreads.com/book/show/15756865-implementing-domain-driven-design) - Practical guide to applying DDD in real projects.
+- [Learning Domain-Driven Design — Vlad Khononov](https://www.goodreads.com/book/show/54186674-learning-domain-driven-design) - Modern, accessible introduction to DDD with practical examples.
+- [Clean Architecture — Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture) - Guide to software structure and design principles.
+- [Designing Data-Intensive Applications — Martin Kleppmann](https://dataintensive.net/) - Essential book on distributed systems, storage, and data processing.
+- [Building Microservices — Sam Newman](https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/) - Designing fine-grained distributed systems with microservices.
+- [Patterns of Enterprise Application Architecture — Martin Fowler](https://martinfowler.com/books/eaa.html) - Classic catalog of enterprise architecture patterns.
+- [Software Architecture: The Hard Parts — Neal Ford et al.](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) - Trade-off analysis for distributed architectures.
+- [A Philosophy of Software Design — John Ousterhout](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) - Principles for decomposing complex software into simple modules.
+- [Fundamentals of Software Architecture — Richards & Ford](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) - Comprehensive guide to architecture styles and characteristics.
+- [Architecture Patterns with Python — Percival & Gregory](https://www.goodreads.com/book/show/50083115-architecture-patterns-with-python) - DDD, event-driven, and TDD patterns applied in Python.
 
 ## Community & Conferences
 
-- [Software Architecture subreddit](https://www.reddit.com/r/softwarearchitecture/) - Reddit community discussing software architecture topics.
+- [Software Architecture Monday](https://www.youtube.com/@markrichards5014) - Mark Richards' weekly YouTube series on architecture topics.
+- [Martin Fowler's Blog](https://martinfowler.com/) - Essential writing on software design, refactoring, and architecture.
+- [Developer Way](https://www.developerway.com/) - In-depth articles on React architecture, patterns, and performance.
+- [InfoQ — Architecture & Design](https://www.infoq.com/architecture-design/) - Articles, talks, and news on software architecture trends.
+- [Technology Radar](https://www.thoughtworks.com/radar) - ThoughtWorks' opinionated guide to technology trends and adoption.
 - [DDD Europe](https://dddeurope.com/) - Premier European conference on Domain-Driven Design.
-- [QCon](https://qconferences.com/) - International software development conference covering architecture.
-- [GOTO Conferences](https://gotopia.tech/) - Conference series focused on software development and architecture.
-- [O'Reilly Software Architecture Conference](https://www.oreilly.com/conferences/) - O'Reilly's conference on software architecture practices.
-- [InfoQ — Architecture & Design](https://www.infoq.com/architecture-design/) - Articles, presentations, and news on software architecture.
-- [Martin Fowler's Blog](https://martinfowler.com/) - Essential blog on software design and architecture patterns.
-- [The Software Architecture Guild](https://www.youracclaim.com/) - Resources and community for software architects.
-- [Technology Radar by ThoughtWorks](https://www.thoughtworks.com/radar) - Opinionated guide to technology trends in software development.
+- [QCon](https://qconferences.com/) - International conference on software development and architecture.
+- [GOTO Conferences](https://gotopia.tech/) - Conference series covering modern software development practices.
+- [Software Architecture subreddit](https://www.reddit.com/r/softwarearchitecture/) - Reddit community for discussing software architecture.
 
 ---
 
