@@ -11,6 +11,7 @@
 - [System Design](#system-design)
 - [Architecture Documentation](#architecture-documentation)
 - [Architecture Testing & Fitness Functions](#architecture-testing--fitness-functions)
+- [Real-World Architecture Examples](#real-world-architecture-examples)
 - [Books](#books)
 - [Community & Conferences](#community--conferences)
 
@@ -29,7 +30,7 @@
 - [Azure Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) - Microsoft's 30+ cloud patterns for availability, data management, and resilience.
 - [AWS Cloud Design Patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) - Amazon's prescriptive guidance covering decomposition, messaging, and data patterns.
 - [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) - WSO2's reference architecture for building resilient distributed systems with isolated cells.
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 270k+ stars resource covering scalability, caching, load balancing, and architecture trade-offs.
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 335k+ stars resource covering scalability, caching, load balancing, and architecture trade-offs.
 - [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Production-ready Go example combining Clean Architecture, CQRS, and gRPC with detailed blog series.
 
 ## Domain-Driven Design
@@ -43,7 +44,7 @@
 - [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven systems with a timeline of commands, events, and views.
 - [Miro DDD Bounded Context Canvas](https://miro.com/miroverse/ddd-bounded-context-canvas/) - Ready-to-use Miro template for running bounded context design workshops remotely.
 - [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - Comprehensive DDD implementation in Java covering lending domain with Aggregates, Policies, and Events.
-- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD, CQRS, and integration events in C# — 11k+ stars reference project.
+- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD, CQRS, and integration events in C# — 13k+ stars reference project.
 - [CodelyTV/php-ddd-example](https://github.com/CodelyTV/php-ddd-example) - PHP DDD skeleton with Hexagonal Architecture, CQRS, and event bus using Symfony.
 - [patchlevel/event-sourcing](https://github.com/patchlevel/event-sourcing) - Modern PHP Event Sourcing library with snapshots, projections, and Doctrine integration.
 
@@ -51,8 +52,8 @@
 
 - [Refactoring.Guru](https://refactoring.guru/design-patterns) - Visual catalog of all 23 GoF patterns with UML diagrams and code in 10+ languages.
 - [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) - All known design patterns in PHP 8.1+ with real-world examples, UML diagrams, and tests.
-- [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - 45k+ stars guide explaining design patterns with real-world analogies, not academic jargon.
-- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 90k+ stars collection of GoF, enterprise, and architectural patterns implemented in Java.
+- [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - 47k+ stars guide explaining design patterns with real-world analogies, not academic jargon.
+- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 93k+ stars collection of GoF, enterprise, and architectural patterns implemented in Java.
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Idiomatic Go implementations of creational, structural, behavioral, and concurrency patterns.
 - [Source Making — Design Patterns](https://sourcemaking.com/design_patterns) - Comprehensive reference with UML diagrams, code examples, and anti-pattern explanations.
 - [Tactical DDD Patterns](https://vaadin.com/blog/ddd-part-3-domain-driven-design-and-the-hexagonal-architecture) - Practical guide combining DDD tactical patterns (Entities, Value Objects) with Hexagonal Architecture.
@@ -60,7 +61,7 @@
 
 ## Architecture Decision Records (ADR)
 
-- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - 12k+ stars collection of ADR templates, examples, and best practices from real projects.
+- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - 15k+ stars collection of ADR templates, examples, and best practices from real projects.
 - [npryce/adr-tools](https://github.com/npryce/adr-tools) - Bash-based CLI for creating, superseding, and managing ADR documents in a project.
 - [adr/madr](https://github.com/adr/madr) - Markdown Any Decision Records — lean template capturing context, decision, and consequences.
 - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) - Michael Nygard's original blog post that started the ADR movement and defined the format.
@@ -90,7 +91,7 @@
 - [Structurizr](https://structurizr.com/) - Architecture models as code using C4, with auto-generated diagrams and documentation.
 - [D2 Language](https://d2lang.com/) - Modern declarative diagramming language with auto-layout that compiles to SVG and PNG.
 - [Terrastruct](https://terrastruct.com/) - Commercial platform for creating interactive architecture diagrams powered by D2.
-- [Mermaid](https://github.com/mermaid-js/mermaid) - 75k+ stars JavaScript diagramming tool rendering flowcharts, sequence diagrams from Markdown syntax.
+- [Mermaid](https://github.com/mermaid-js/mermaid) - 85k+ stars JavaScript diagramming tool rendering flowcharts, sequence diagrams from Markdown syntax.
 - [PlantUML](https://plantuml.com/) - Mature open-source tool generating UML, C4, and architecture diagrams from plain text.
 - [arc42](https://arc42.org/) - Pragmatic, proven template for software architecture documentation used in 1000s of projects.
 - [Diagrams as Code](https://github.com/mingrammer/diagrams) - Draw AWS, Azure, GCP, and Kubernetes architecture diagrams in Python with provider icons.
@@ -108,6 +109,16 @@
 - [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on using automated fitness functions to guide architecture evolution.
 - [PHPStan](https://phpstan.org/) - PHP static analysis finding bugs at level 0–9 without running code — 13k+ stars.
 - [Psalm](https://psalm.dev/) - PHP static analysis focused on type safety with template types and taint analysis.
+
+## Real-World Architecture Examples
+
+- [Kubernetes Design Proposals](https://github.com/kubernetes/design-proposals-archive) - Archived architecture decisions behind the world's most popular container orchestrator.
+- [Spotify System Model](https://engineering.atspotify.com/2022/07/software-visualization-challenge-accepted/) - How Spotify visualizes 2000+ microservices using Backstage and the C4 model.
+- [Netflix Tech Blog](https://netflixtechblog.com/) - Deep dives into distributed systems powering 200M+ subscribers — chaos engineering, data pipelines, and resilience.
+- [Uber Domain-Oriented Microservices](https://www.uber.com/blog/microservice-architecture/) - How Uber evolved from monolith to 4000+ microservices with domain-oriented architecture.
+- [Figma Multiplayer Architecture](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/) - How Figma built real-time collaboration with CRDTs and operational transforms.
+- [Slack Architecture](https://slack.engineering/) - Engineering blog covering message storage, search infrastructure, and real-time event delivery.
+- [GitHub Architecture](https://github.blog/engineering/) - Behind-the-scenes of GitHub's infrastructure, deployment, and reliability engineering.
 
 ## Books
 
