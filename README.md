@@ -1,37 +1,33 @@
 # Awesome Software Design [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of resources on software design, architecture patterns, ADR, system design, and practical examples for backend development.
+> Turning requirements into well-structured code through patterns, principles, and documented decisions.
 
 ## Contents
 
-- [Architecture Patterns](#architecture-patterns)
+- [Patterns in Practice](#patterns-in-practice)
 - [Domain-Driven Design](#domain-driven-design)
 - [Design Patterns](#design-patterns)
 - [Architecture Decision Records (ADR)](#architecture-decision-records-adr)
 - [System Design](#system-design)
-- [Architecture Documentation](#architecture-documentation)
-- [Architecture Testing & Fitness Functions](#architecture-testing--fitness-functions)
+- [Design Documentation](#design-documentation)
+- [Design Verification](#design-verification)
 - [Real-World Architecture Examples](#real-world-architecture-examples)
 - [Books](#books)
 - [Community & Conferences](#community--conferences)
 
 ---
 
-## Architecture Patterns
+## Patterns in Practice
 
-- [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Robert C. Martin's foundational post defining the dependency rule and concentric layer model.
-- [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) - Alistair Cockburn's original Ports and Adapters pattern that decouples core logic from infrastructure.
-- [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) - Jeffrey Palermo's layered approach placing the domain model at the center of all dependencies.
-- [CQRS](https://martinfowler.com/bliki/CQRS.html) - Martin Fowler's concise explanation of separating read and write models for complex domains.
-- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) - Pattern for persisting state as an immutable sequence of domain events, enabling full audit trails.
-- [Modular Monolith](https://www.kamilgrzybek.com/blog/posts/modular-monolith-primer) - Kamil Grzybek's primer on building well-structured monoliths with clear module boundaries.
-- [Microservices Patterns](https://microservices.io/) - Chris Richardson's comprehensive catalog of microservice patterns including Saga, API Gateway, and CQRS.
+- [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Production-ready Go example combining Clean Architecture, CQRS, and gRPC with detailed blog series.
+- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD, CQRS, and integration events in C# — 13k+ stars reference project.
+- [CodelyTV/php-ddd-example](https://github.com/CodelyTV/php-ddd-example) - PHP DDD skeleton with Hexagonal Architecture, CQRS, and event bus using Symfony.
 - [Serverless Patterns Collection](https://serverlessland.com/patterns) - AWS-curated serverless architecture patterns with deployable SAM/CDK templates.
 - [Azure Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) - Microsoft's 30+ cloud patterns for availability, data management, and resilience.
 - [AWS Cloud Design Patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) - Amazon's prescriptive guidance covering decomposition, messaging, and data patterns.
+- [Microservices Patterns](https://microservices.io/) - Chris Richardson's comprehensive catalog of microservice patterns including Saga, API Gateway, and CQRS.
 - [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) - WSO2's reference architecture for building resilient distributed systems with isolated cells.
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 335k+ stars resource covering scalability, caching, load balancing, and architecture trade-offs.
-- [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Production-ready Go example combining Clean Architecture, CQRS, and gRPC with detailed blog series.
 
 ## Domain-Driven Design
 
@@ -44,8 +40,6 @@
 - [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven systems with a timeline of commands, events, and views.
 - [Miro DDD Bounded Context Canvas](https://miro.com/miroverse/ddd-bounded-context-canvas/) - Ready-to-use Miro template for running bounded context design workshops remotely.
 - [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - Comprehensive DDD implementation in Java covering lending domain with Aggregates, Policies, and Events.
-- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD, CQRS, and integration events in C# — 13k+ stars reference project.
-- [CodelyTV/php-ddd-example](https://github.com/CodelyTV/php-ddd-example) - PHP DDD skeleton with Hexagonal Architecture, CQRS, and event bus using Symfony.
 - [patchlevel/event-sourcing](https://github.com/patchlevel/event-sourcing) - Modern PHP Event Sourcing library with snapshots, projections, and Doctrine integration.
 
 ## Design Patterns
@@ -56,7 +50,6 @@
 - [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 93k+ stars collection of GoF, enterprise, and architectural patterns implemented in Java.
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Idiomatic Go implementations of creational, structural, behavioral, and concurrency patterns.
 - [Source Making — Design Patterns](https://sourcemaking.com/design_patterns) - Comprehensive reference with UML diagrams, code examples, and anti-pattern explanations.
-- [Tactical DDD Patterns](https://vaadin.com/blog/ddd-part-3-domain-driven-design-and-the-hexagonal-architecture) - Practical guide combining DDD tactical patterns (Entities, Value Objects) with Hexagonal Architecture.
 - [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Go library for building event-driven applications with Pub/Sub, CQRS, and middleware support.
 
 ## Architecture Decision Records (ADR)
@@ -71,6 +64,10 @@
 - [Kubernetes KEPs](https://github.com/kubernetes/enhancements/tree/master/keps) - Real-world architecture decision process at scale — Kubernetes Enhancement Proposals.
 - [Spotify ADR Practice](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/) - Spotify engineering on when, why, and how to write effective ADRs.
 - [GOV.UK RFCs](https://github.com/alphagov/govuk-rfcs) - UK Government Digital Service architecture decisions — excellent public sector ADR example.
+- [GitHub Actions Toolkit ADRs](https://github.com/actions/toolkit/tree/main/docs/adrs) - Architecture Decision Records from GitHub's official Actions toolkit.
+- [Rust RFCs](https://github.com/rust-lang/rfcs) - Rust language design decisions captured as RFCs — one of the best public RFC processes.
+- [Next.js RFCs](https://github.com/vercel/next.js/discussions/categories/rfc) - Vercel's public RFC discussions for Next.js architectural changes and new features.
+- [Flutter Design Docs](https://github.com/flutter/flutter/wiki/Design-Documents) - Flutter's public design document process for major architectural decisions.
 
 ## System Design
 
@@ -85,20 +82,17 @@
 - [Rate Limiting Strategies](https://cloud.google.com/architecture/rate-limiting-strategies-techniques) - Google Cloud guide covering token bucket, leaky bucket, and sliding window algorithms.
 - [DDIA Notes](https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md) - Detailed community notes on Kleppmann's DDIA covering replication, partitioning, and consensus.
 
-## Architecture Documentation
+## Design Documentation
 
 - [C4 Model](https://c4model.com/) - Simon Brown's four-level model (Context, Container, Component, Code) for architecture visualization.
-- [Structurizr](https://structurizr.com/) - Architecture models as code using C4, with auto-generated diagrams and documentation.
 - [D2 Language](https://d2lang.com/) - Modern declarative diagramming language with auto-layout that compiles to SVG and PNG.
-- [Terrastruct](https://terrastruct.com/) - Commercial platform for creating interactive architecture diagrams powered by D2.
 - [Mermaid](https://github.com/mermaid-js/mermaid) - 85k+ stars JavaScript diagramming tool rendering flowcharts, sequence diagrams from Markdown syntax.
-- [PlantUML](https://plantuml.com/) - Mature open-source tool generating UML, C4, and architecture diagrams from plain text.
-- [arc42](https://arc42.org/) - Pragmatic, proven template for software architecture documentation used in 1000s of projects.
 - [Diagrams as Code](https://github.com/mingrammer/diagrams) - Draw AWS, Azure, GCP, and Kubernetes architecture diagrams in Python with provider icons.
 - [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) - Validate and visualize JavaScript/TypeScript module dependencies against architecture rules.
 - [Ilograph](https://www.ilograph.com/) - Interactive architecture diagrams with multi-perspective views and drill-down navigation.
+- [Terrastruct](https://terrastruct.com/) - Commercial platform for creating interactive architecture diagrams powered by D2.
 
-## Architecture Testing & Fitness Functions
+## Design Verification
 
 - [phparkitect/arkitect](https://github.com/phparkitect/arkitect) - Define PHP architecture rules with expressive DSL — enforce layer dependencies in CI.
 - [carlosas/phpat](https://github.com/carlosas/phpat) - PHP Architecture Tester running as PHPStan extension — assert dependency rules in your test suite.
@@ -106,19 +100,23 @@
 - [TNG/ArchUnit](https://github.com/TNG/ArchUnit) - Industry-standard Java library for checking architecture constraints as unit tests.
 - [TNG/ArchUnitNET](https://github.com/TNG/ArchUnitNET) - .NET port of ArchUnit for enforcing architecture rules in C# projects.
 - [fdaines/arch-go](https://github.com/fdaines/arch-go) - Architecture testing for Go — validate package dependencies, naming, and function rules.
+- [LemonAppDev/konsist](https://github.com/LemonAppDev/konsist) - Kotlin architecture linter enforcing coding conventions, project structure, and dependency rules.
 - [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on using automated fitness functions to guide architecture evolution.
 - [PHPStan](https://phpstan.org/) - PHP static analysis finding bugs at level 0–9 without running code — 13k+ stars.
 - [Psalm](https://psalm.dev/) - PHP static analysis focused on type safety with template types and taint analysis.
 
 ## Real-World Architecture Examples
 
-- [Kubernetes Design Proposals](https://github.com/kubernetes/design-proposals-archive) - Archived architecture decisions behind the world's most popular container orchestrator.
 - [Spotify System Model](https://engineering.atspotify.com/2022/07/software-visualization-challenge-accepted/) - How Spotify visualizes 2000+ microservices using Backstage and the C4 model.
 - [Netflix Tech Blog](https://netflixtechblog.com/) - Deep dives into distributed systems powering 200M+ subscribers — chaos engineering, data pipelines, and resilience.
-- [Uber Domain-Oriented Microservices](https://www.uber.com/blog/microservice-architecture/) - How Uber evolved from monolith to 4000+ microservices with domain-oriented architecture.
+- [Uber Domain-Oriented Microservices](https://www.uber.com/en-US/blog/microservice-architecture/) - How Uber evolved from monolith to 4000+ microservices with domain-oriented architecture.
 - [Figma Multiplayer Architecture](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/) - How Figma built real-time collaboration with CRDTs and operational transforms.
 - [Slack Architecture](https://slack.engineering/) - Engineering blog covering message storage, search infrastructure, and real-time event delivery.
 - [GitHub Architecture](https://github.blog/engineering/) - Behind-the-scenes of GitHub's infrastructure, deployment, and reliability engineering.
+- [Stripe's Approach to API Design](https://stripe.com/blog/payment-api-design) - How Stripe designs backward-compatible APIs at scale with versioning and careful evolution.
+- [Discord Architecture](https://discord.com/blog/how-discord-stores-trillions-of-messages) - How Discord migrated from Cassandra to ScyllaDB to store trillions of messages.
+- [Shopify Modular Monolith](https://shopify.engineering/shopify-monolith) - How Shopify deconstructed their monolith into components while staying on a single deployment.
+- [Cloudflare Engineering Blog](https://blog.cloudflare.com/tag/engineering/) - Deep technical posts on edge computing, DNS, and global network architecture.
 
 ## Books
 
