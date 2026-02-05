@@ -1,0 +1,4 @@
+exclude = [
+    "reddit\\.com",
+    "uber\\.com"
+]

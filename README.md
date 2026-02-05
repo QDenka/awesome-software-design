@@ -38,7 +38,6 @@
 - [Vaughn Vernon's IDDD Samples](https://github.com/VaughnVernon/IDDD_Samples) - Companion code for "Implementing Domain-Driven Design" covering Aggregates, Repositories, and Events.
 - [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini's collaborative workshop technique for discovering domain events and boundaries.
 - [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven systems with a timeline of commands, events, and views.
-- [Miro DDD Bounded Context Canvas](https://miro.com/miroverse/ddd-bounded-context-canvas/) - Ready-to-use Miro template for running bounded context design workshops remotely.
 - [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - Comprehensive DDD implementation in Java covering lending domain with Aggregates, Policies, and Events.
 - [patchlevel/event-sourcing](https://github.com/patchlevel/event-sourcing) - Modern PHP Event Sourcing library with snapshots, projections, and Doctrine integration.
 
@@ -108,8 +107,8 @@
 ## Real-World Architecture Examples
 
 - [Spotify System Model](https://engineering.atspotify.com/2022/07/software-visualization-challenge-accepted/) - How Spotify visualizes 2000+ microservices using Backstage and the C4 model.
-- [Netflix Tech Blog](https://netflixtechblog.com/) - Deep dives into distributed systems powering 200M+ subscribers — chaos engineering, data pipelines, and resilience.
-- [Uber Domain-Oriented Microservices](https://www.uber.com/en-US/blog/microservice-architecture/) - How Uber evolved from monolith to 4000+ microservices with domain-oriented architecture.
+- [Netflix Tech Blog](https://medium.com/netflix-techblog) - Deep dives into distributed systems powering 200M+ subscribers — chaos engineering, data pipelines, and resilience.
+- [Uber Domain-Oriented Microservices](https://eng.uber.com/microservice-architecture/) - How Uber evolved from monolith to 4000+ microservices with domain-oriented architecture.
 - [Figma Multiplayer Architecture](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/) - How Figma built real-time collaboration with CRDTs and operational transforms.
 - [Slack Architecture](https://slack.engineering/) - Engineering blog covering message storage, search infrastructure, and real-time event delivery.
 - [GitHub Architecture](https://github.blog/engineering/) - Behind-the-scenes of GitHub's infrastructure, deployment, and reliability engineering.
