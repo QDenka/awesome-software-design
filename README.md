@@ -1,4 +1,14 @@
-# Awesome Software Design [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <a href="https://github.com/QDenka/awesome-software-design">
+    <img src="logo.png" width="200">
+  </a>
+</p>
+
+<h1 align="center">Awesome Software Design</h1>
+
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+</p>
 
 > Turning requirements into well-structured code through patterns, principles, and documented decisions.
 
