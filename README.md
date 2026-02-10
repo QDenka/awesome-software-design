@@ -10,12 +10,11 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 </p>
 
-> Turning requirements into well-structured code through patterns, principles, and documented decisions.
+> Organizing and structuring software through patterns, decisions, and verified design rules.
 
 ## Contents
 
-- [Patterns in Practice](#patterns-in-practice)
-- [Domain-Driven Design](#domain-driven-design)
+- [Reference Implementations](#reference-implementations)
 - [Design Patterns](#design-patterns)
 - [Architecture Decision Records (ADR)](#architecture-decision-records-adr)
 - [System Design](#system-design)
@@ -27,43 +26,32 @@
 
 ---
 
-## Patterns in Practice
+## Reference Implementations
 
+- [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Go library for building event-driven applications with Pub/Sub, CQRS, and middleware support.
 - [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Production-ready Go example combining Clean Architecture, CQRS, and gRPC with detailed blog series.
-- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD, CQRS, and integration events in C# — 13k+ stars reference project.
+- [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith with DDD, CQRS, and integration events in C# — reference project.
 - [CodelyTV/php-ddd-example](https://github.com/CodelyTV/php-ddd-example) - PHP DDD skeleton with Hexagonal Architecture, CQRS, and event bus using Symfony.
 - [Serverless Patterns Collection](https://serverlessland.com/patterns) - AWS-curated serverless architecture patterns with deployable SAM/CDK templates.
 - [Azure Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) - Microsoft's 30+ cloud patterns for availability, data management, and resilience.
 - [AWS Cloud Design Patterns](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html) - Amazon's prescriptive guidance covering decomposition, messaging, and data patterns.
 - [Microservices Patterns](https://microservices.io/) - Chris Richardson's comprehensive catalog of microservice patterns including Saga, API Gateway, and CQRS.
-- [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) - WSO2's reference architecture for building resilient distributed systems with isolated cells.
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - 335k+ stars resource covering scalability, caching, load balancing, and architecture trade-offs.
-
-## Domain-Driven Design
-
-- [DDD Reference](https://www.domainlanguage.com/ddd/reference/) - Eric Evans' official DDD pattern language reference — the canonical terminology guide.
-- [ddd-crew/ddd-starter-modelling-process](https://github.com/ddd-crew/ddd-starter-modelling-process) - Step-by-step facilitation guide for running DDD modelling sessions in teams.
-- [ddd-crew/bounded-context-canvas](https://github.com/ddd-crew/bounded-context-canvas) - Visual tool for designing bounded contexts with inbound/outbound communication flows.
-- [ddd-crew/context-mapping](https://github.com/ddd-crew/context-mapping) - Context Mapping patterns (ACL, Open Host, Shared Kernel) with visual diagrams.
-- [Vaughn Vernon's IDDD Samples](https://github.com/VaughnVernon/IDDD_Samples) - Companion code for "Implementing Domain-Driven Design" covering Aggregates, Repositories, and Events.
-- [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini's collaborative workshop technique for discovering domain events and boundaries.
-- [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven systems with a timeline of commands, events, and views.
-- [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - Comprehensive DDD implementation in Java covering lending domain with Aggregates, Policies, and Events.
 - [patchlevel/event-sourcing](https://github.com/patchlevel/event-sourcing) - Modern PHP Event Sourcing library with snapshots, projections, and Doctrine integration.
+- [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven systems with a timeline of commands, events, and views.
+- [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) - WSO2's reference architecture for building resilient distributed systems with isolated cells.
 
 ## Design Patterns
 
 - [Refactoring.Guru](https://refactoring.guru/design-patterns) - Visual catalog of all 23 GoF patterns with UML diagrams and code in 10+ languages.
 - [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) - All known design patterns in PHP 8.1+ with real-world examples, UML diagrams, and tests.
-- [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - 47k+ stars guide explaining design patterns with real-world analogies, not academic jargon.
-- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 93k+ stars collection of GoF, enterprise, and architectural patterns implemented in Java.
+- [kamranahmedse/design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) - Guide explaining design patterns with real-world analogies, not academic jargon.
+- [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Collection of GoF, enterprise, and architectural patterns implemented in Java.
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Idiomatic Go implementations of creational, structural, behavioral, and concurrency patterns.
 - [Source Making — Design Patterns](https://sourcemaking.com/design_patterns) - Comprehensive reference with UML diagrams, code examples, and anti-pattern explanations.
-- [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Go library for building event-driven applications with Pub/Sub, CQRS, and middleware support.
 
 ## Architecture Decision Records (ADR)
 
-- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - 15k+ stars collection of ADR templates, examples, and best practices from real projects.
+- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - Collection of ADR templates, examples, and best practices from real projects.
 - [npryce/adr-tools](https://github.com/npryce/adr-tools) - Bash-based CLI for creating, superseding, and managing ADR documents in a project.
 - [adr/madr](https://github.com/adr/madr) - Markdown Any Decision Records — lean template capturing context, decision, and consequences.
 - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) - Michael Nygard's original blog post that started the ADR movement and defined the format.
@@ -80,6 +68,7 @@
 
 ## System Design
 
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Comprehensive resource covering scalability, caching, load balancing, and architecture trade-offs.
 - [ByteByteGo](https://bytebytego.com/) - Alex Xu's system design course with visual deep dives into distributed systems internals.
 - [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design) - Free system design course covering networking, databases, caching, and real-world case studies.
 - [High Scalability](https://highscalability.com/) - Real architecture case studies from Netflix, Twitter, and other high-traffic systems.
@@ -95,7 +84,7 @@
 
 - [C4 Model](https://c4model.com/) - Simon Brown's four-level model (Context, Container, Component, Code) for architecture visualization.
 - [D2 Language](https://d2lang.com/) - Modern declarative diagramming language with auto-layout that compiles to SVG and PNG.
-- [Mermaid](https://github.com/mermaid-js/mermaid) - 85k+ stars JavaScript diagramming tool rendering flowcharts, sequence diagrams from Markdown syntax.
+- [Mermaid](https://github.com/mermaid-js/mermaid) - JavaScript diagramming tool rendering flowcharts, sequence diagrams from Markdown syntax.
 - [Diagrams as Code](https://github.com/mingrammer/diagrams) - Draw AWS, Azure, GCP, and Kubernetes architecture diagrams in Python with provider icons.
 - [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) - Validate and visualize JavaScript/TypeScript module dependencies against architecture rules.
 - [Ilograph](https://www.ilograph.com/) - Interactive architecture diagrams with multi-perspective views and drill-down navigation.
@@ -112,20 +101,19 @@
 - [LemonAppDev/konsist](https://github.com/LemonAppDev/konsist) - Kotlin architecture linter enforcing coding conventions, project structure, and dependency rules.
 - [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on using automated fitness functions to guide architecture evolution.
 - [PHPStan](https://phpstan.org/) - PHP static analysis finding bugs at level 0–9 without running code — 13k+ stars.
-- [Psalm](https://psalm.dev/) - PHP static analysis focused on type safety with template types and taint analysis.
 
 ## Real-World Architecture Examples
 
 - [Spotify System Model](https://engineering.atspotify.com/2022/07/software-visualization-challenge-accepted/) - How Spotify visualizes 2000+ microservices using Backstage and the C4 model.
-- [Netflix Tech Blog](https://medium.com/netflix-techblog) - Deep dives into distributed systems powering 200M+ subscribers — chaos engineering, data pipelines, and resilience.
+- [Netflix Microservices Architecture](https://medium.com/netflix-techblog/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0) - How Netflix built and open-sourced their microservice infrastructure with Spring Boot.
 - [Uber Domain-Oriented Microservices](https://eng.uber.com/microservice-architecture/) - How Uber evolved from monolith to 4000+ microservices with domain-oriented architecture.
 - [Figma Multiplayer Architecture](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/) - How Figma built real-time collaboration with CRDTs and operational transforms.
-- [Slack Architecture](https://slack.engineering/) - Engineering blog covering message storage, search infrastructure, and real-time event delivery.
-- [GitHub Architecture](https://github.blog/engineering/) - Behind-the-scenes of GitHub's infrastructure, deployment, and reliability engineering.
+- [Slack Real-Time Messaging](https://slack.engineering/flannel-an-application-level-edge-cache-to-make-slack-scale/) - How Slack built Flannel, an edge cache handling millions of concurrent WebSocket connections.
+- [GitHub Moving to Microservices](https://github.blog/engineering/architecture-optimization/how-we-improved-push-processing-on-github/) - How GitHub re-architected push processing for better reliability and performance.
 - [Stripe's Approach to API Design](https://stripe.com/blog/payment-api-design) - How Stripe designs backward-compatible APIs at scale with versioning and careful evolution.
 - [Discord Architecture](https://discord.com/blog/how-discord-stores-trillions-of-messages) - How Discord migrated from Cassandra to ScyllaDB to store trillions of messages.
 - [Shopify Modular Monolith](https://shopify.engineering/shopify-monolith) - How Shopify deconstructed their monolith into components while staying on a single deployment.
-- [Cloudflare Engineering Blog](https://blog.cloudflare.com/tag/engineering/) - Deep technical posts on edge computing, DNS, and global network architecture.
+- [Cloudflare Workers Architecture](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/) - How Cloudflare built Pingora, their custom Rust proxy replacing Nginx.
 
 ## Books
 
