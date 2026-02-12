@@ -48,6 +48,8 @@
 - [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Collection of GoF, enterprise, and architectural patterns implemented in Java.
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Idiomatic Go implementations of creational, structural, behavioral, and concurrency patterns.
 - [Source Making — Design Patterns](https://sourcemaking.com/design_patterns) - Comprehensive reference with UML diagrams, code examples, and anti-pattern explanations.
+- [Christopher Okhravi — Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) - Video series walking through each GoF pattern with clear explanations and real-world context.
+- [faif/python-patterns](https://github.com/faif/python-patterns) - Collection of design patterns and idioms implemented in Python with concise examples.
 
 ## Architecture Decision Records (ADR)
 
