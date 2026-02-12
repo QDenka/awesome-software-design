@@ -93,14 +93,12 @@
 ## Design Verification
 
 - [phparkitect/arkitect](https://github.com/phparkitect/arkitect) - Define PHP architecture rules with expressive DSL — enforce layer dependencies in CI.
-- [carlosas/phpat](https://github.com/carlosas/phpat) - PHP Architecture Tester running as PHPStan extension — assert dependency rules in your test suite.
 - [pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch) - Fluent architecture testing for Laravel/Pest — `expect()->toUseNothing()` style assertions.
 - [TNG/ArchUnit](https://github.com/TNG/ArchUnit) - Industry-standard Java library for checking architecture constraints as unit tests.
 - [TNG/ArchUnitNET](https://github.com/TNG/ArchUnitNET) - .NET port of ArchUnit for enforcing architecture rules in C# projects.
 - [fdaines/arch-go](https://github.com/fdaines/arch-go) - Architecture testing for Go — validate package dependencies, naming, and function rules.
 - [LemonAppDev/konsist](https://github.com/LemonAppDev/konsist) - Kotlin architecture linter enforcing coding conventions, project structure, and dependency rules.
 - [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on using automated fitness functions to guide architecture evolution.
-- [PHPStan](https://phpstan.org/) - PHP static analysis finding bugs at level 0–9 without running code — 13k+ stars.
 
 ## Real-World Architecture Examples
 
