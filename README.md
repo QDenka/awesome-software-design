@@ -22,7 +22,7 @@
 - [Design Verification](#design-verification)
 - [Real-World Architecture Examples](#real-world-architecture-examples)
 - [Books](#books)
-- [Community & Conferences](#community--conferences)
+- [Community and Conferences](#community-and-conferences)
 
 ---
 
@@ -129,7 +129,7 @@
 - [Fundamentals of Software Architecture — Richards & Ford](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) - Comprehensive overview of architecture styles, characteristics, and the architect's soft skills.
 - [Architecture Patterns with Python — Percival & Gregory](https://www.goodreads.com/book/show/50083115-architecture-patterns-with-python) - Hands-on DDD, event-driven architecture, and TDD patterns applied in Python with working code.
 
-## Community & Conferences
+## Community and Conferences
 
 - [Software Architecture Monday](https://www.youtube.com/@markrichards5014) - Mark Richards' weekly YouTube series breaking down architecture concepts in 10-minute episodes.
 - [Martin Fowler's Blog](https://martinfowler.com/) - Decades of essential writing on refactoring, microservices, and enterprise architecture patterns.
