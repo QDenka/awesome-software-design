@@ -11,5 +11,5 @@
 - [ ] Resource is awesome (not just average)
 - [ ] Description is concise (one line)
 - [ ] Link is working
-- [ ] Added in alphabetical order within the section
+- [ ] Added to the bottom of the relevant section
 - [ ] No duplicate entries
