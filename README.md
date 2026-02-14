@@ -91,6 +91,8 @@
 - [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) - Validate and visualize JavaScript/TypeScript module dependencies against architecture rules.
 - [Ilograph](https://www.ilograph.com/) - Interactive architecture diagrams with multi-perspective views and drill-down navigation.
 - [Terrastruct](https://terrastruct.com/) - Commercial platform for creating interactive architecture diagrams powered by D2.
+- [Structurizr](https://structurizr.com/) - Official C4 tooling by Simon Brown: architecture-as-code via DSL with interactive, zoomable diagrams.
+- [PlantUML](https://plantuml.com/) - Widely-adopted diagrams-as-code tool for UML/C4 and architecture visuals with strong IDE and CI integration.
 
 ## Design Verification
 
@@ -128,6 +130,9 @@
 - [A Philosophy of Software Design — John Ousterhout](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) - Concise guide to reducing complexity through deep modules and strategic interface design.
 - [Fundamentals of Software Architecture — Richards & Ford](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) - Comprehensive overview of architecture styles, characteristics, and the architect's soft skills.
 - [Architecture Patterns with Python — Percival & Gregory](https://www.goodreads.com/book/show/50083115-architecture-patterns-with-python) - Hands-on DDD, event-driven architecture, and TDD patterns applied in Python with working code.
+- [Release It! (2nd Edition) — Michael T. Nygard](https://pragprog.com/titles/mnee2/release-it-second-edition/) - Stability patterns (circuit breakers, bulkheads) and anti-patterns for designing production-ready distributed systems.
+- [Team Topologies — Matthew Skelton & Manuel Pais](https://teamtopologies.com/book) - Practical application of Conway's Law: team interaction modes, stream-aligned teams, platform teams, and cognitive load.
+- [Balancing Coupling in Software Design — Vlad Khononov](https://www.informit.com/store/balancing-coupling-in-software-design-universal-design-9780137353484) - Three-dimensional coupling model (strength, distance, volatility) with practical guidance for controlling dependencies.
 
 ## Community and Conferences
 
