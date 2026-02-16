@@ -96,7 +96,7 @@
 - [phparkitect/arkitect](https://github.com/phparkitect/arkitect) - Define PHP architecture rules with expressive DSL — enforce layer dependencies in CI.
 - [pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch) - Fluent architecture testing for Laravel/Pest — `expect()->toUseNothing()` style assertions.
 - [TNG/ArchUnit](https://github.com/TNG/ArchUnit) - Industry-standard Java library for checking architecture constraints as unit tests.
-- [TNG/ArchUnitNET](https://github.com/TNG/ArchUnitNET) - .NET port of ArchUnit for enforcing architecture rules in C# projects.
+- [TNG/ArchUnitNET](https://github.com/TNG/ArchUnitNET) - C# port of ArchUnit for enforcing architecture rules in .NET projects.
 - [arch-go/arch-go](https://github.com/arch-go/arch-go) - Architecture testing for Go with configurable rule sets for dependencies, naming, and layering constraints.
 - [LemonAppDev/konsist](https://github.com/LemonAppDev/konsist) - Kotlin architecture linter enforcing coding conventions, project structure, and dependency rules.
 - [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on using automated fitness functions to guide architecture evolution.
