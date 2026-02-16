@@ -16,9 +16,9 @@
 
 - [Implementation Patterns & Reference Code](#implementation-patterns--reference-code)
 - [Decision Records (ADR/RFC)](#decision-records-adrrfc)
+- [Documentation as Code](#documentation-as-code)
 - [Architecture Verification (CI Rules / Fitness Functions)](#architecture-verification-ci-rules--fitness-functions)
 - [Operational Case Studies (Curated, Short)](#operational-case-studies-curated-short)
-- [Documentation as Code](#documentation-as-code)
 - [Books](#books)
 - [Community](#community)
 
