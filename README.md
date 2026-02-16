@@ -10,23 +10,21 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 </p>
 
-> Organizing and structuring software through patterns, decisions, and verified design rules.
+> Design-in-practice: implementation patterns, decision records, verification rules, and real operational lessons.
 
 ## Contents
 
-- [Reference Implementations](#reference-implementations)
-- [Design Patterns](#design-patterns)
-- [Architecture Decision Records (ADR)](#architecture-decision-records-adr)
-- [System Design](#system-design)
-- [Design Documentation](#design-documentation)
-- [Design Verification](#design-verification)
-- [Real-World Architecture Examples](#real-world-architecture-examples)
+- [Implementation Patterns & Reference Code](#implementation-patterns--reference-code)
+- [Decision Records (ADR/RFC)](#decision-records-adrrfc)
+- [Architecture Verification (CI Rules / Fitness Functions)](#architecture-verification-ci-rules--fitness-functions)
+- [Operational Case Studies (Curated, Short)](#operational-case-studies-curated-short)
+- [Documentation as Code](#documentation-as-code)
 - [Books](#books)
-- [Community and Conferences](#community-and-conferences)
+- [Community](#community)
 
 ---
 
-## Reference Implementations
+## Implementation Patterns & Reference Code
 
 - [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Go library for building event-driven applications with Pub/Sub, CQRS, and middleware support.
 - [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - Production-ready Go example combining Clean Architecture, CQRS, and gRPC with detailed blog series.
@@ -40,7 +38,7 @@
 - [Event Modeling](https://www.eventmodeling.org/) - Visual method for designing event-driven systems with a timeline of commands, events, and views.
 - [Cell-Based Architecture](https://github.com/wso2/reference-architecture/blob/master/reference-architecture-cell-based.md) - WSO2's reference architecture for building resilient distributed systems with isolated cells.
 
-## Design Patterns
+### Design Patterns
 
 - [Refactoring.Guru](https://refactoring.guru/design-patterns) - Visual catalog of all 23 GoF patterns with UML diagrams and code in 10+ languages.
 - [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) - All known design patterns in PHP 8.1+ with real-world examples, UML diagrams, and tests.
@@ -51,7 +49,7 @@
 - [Christopher Okhravi — Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) - Video series walking through each GoF pattern with clear explanations and real-world context.
 - [faif/python-patterns](https://github.com/faif/python-patterns) - Collection of design patterns and idioms implemented in Python with concise examples.
 
-## Architecture Decision Records (ADR)
+## Decision Records (ADR/RFC)
 
 - [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - Collection of ADR templates, examples, and best practices from real projects.
 - [npryce/adr-tools](https://github.com/npryce/adr-tools) - Bash-based CLI for creating, superseding, and managing ADR documents in a project.
@@ -68,7 +66,7 @@
 - [Next.js RFCs](https://github.com/vercel/next.js/discussions/categories/rfc) - Vercel's public RFC discussions for Next.js architectural changes and new features.
 - [Flutter Design Docs](https://github.com/flutter/flutter/wiki/Design-Documents) - Flutter's public design document process for major architectural decisions.
 
-## System Design
+### System Design & API Foundations
 
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Comprehensive resource covering scalability, caching, load balancing, and architecture trade-offs.
 - [ByteByteGo](https://bytebytego.com/) - Alex Xu's system design course with visual deep dives into distributed systems internals.
@@ -80,9 +78,8 @@
 - [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) - Official tutorials covering work queues, pub/sub, routing, and RPC messaging patterns.
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/) - Complete reference for Kafka's distributed streaming platform, partitioning, and consumer groups.
 - [Rate Limiting Strategies](https://cloud.google.com/architecture/rate-limiting-strategies-techniques) - Google Cloud guide covering token bucket, leaky bucket, and sliding window algorithms.
-- [DDIA Notes](https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md) - Detailed community notes on Kleppmann's DDIA covering replication, partitioning, and consensus.
 
-## Design Documentation
+## Documentation as Code
 
 - [C4 Model](https://c4model.com/) - Simon Brown's four-level model (Context, Container, Component, Code) for architecture visualization.
 - [D2 Language](https://d2lang.com/) - Modern declarative diagramming language with auto-layout that compiles to SVG and PNG.
@@ -94,17 +91,17 @@
 - [Structurizr](https://structurizr.com/) - Official C4 tooling by Simon Brown: architecture-as-code via DSL with interactive, zoomable diagrams.
 - [PlantUML](https://plantuml.com/) - Widely-adopted diagrams-as-code tool for UML/C4 and architecture visuals with strong IDE and CI integration.
 
-## Design Verification
+## Architecture Verification (CI Rules / Fitness Functions)
 
 - [phparkitect/arkitect](https://github.com/phparkitect/arkitect) - Define PHP architecture rules with expressive DSL — enforce layer dependencies in CI.
 - [pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch) - Fluent architecture testing for Laravel/Pest — `expect()->toUseNothing()` style assertions.
 - [TNG/ArchUnit](https://github.com/TNG/ArchUnit) - Industry-standard Java library for checking architecture constraints as unit tests.
 - [TNG/ArchUnitNET](https://github.com/TNG/ArchUnitNET) - .NET port of ArchUnit for enforcing architecture rules in C# projects.
-- [fdaines/arch-go](https://github.com/fdaines/arch-go) - Architecture testing for Go — validate package dependencies, naming, and function rules.
+- [arch-go/arch-go](https://github.com/arch-go/arch-go) - Architecture testing for Go with configurable rule sets for dependencies, naming, and layering constraints.
 - [LemonAppDev/konsist](https://github.com/LemonAppDev/konsist) - Kotlin architecture linter enforcing coding conventions, project structure, and dependency rules.
 - [Fitness Function-Driven Development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) - ThoughtWorks article on using automated fitness functions to guide architecture evolution.
 
-## Real-World Architecture Examples
+## Operational Case Studies (Curated, Short)
 
 - [Spotify System Model](https://engineering.atspotify.com/2022/07/software-visualization-challenge-accepted/) - How Spotify visualizes 2000+ microservices using Backstage and the C4 model.
 - [Netflix Microservices Architecture](https://medium.com/netflix-techblog/netflix-oss-and-spring-boot-coming-full-circle-4855947713a0) - How Netflix built and open-sourced their microservice infrastructure with Spring Boot.
@@ -134,7 +131,7 @@
 - [Team Topologies — Matthew Skelton & Manuel Pais](https://teamtopologies.com/book) - Practical application of Conway's Law: team interaction modes, stream-aligned teams, platform teams, and cognitive load.
 - [Balancing Coupling in Software Design — Vlad Khononov](https://www.informit.com/store/balancing-coupling-in-software-design-universal-design-9780137353484) - Three-dimensional coupling model (strength, distance, volatility) with practical guidance for controlling dependencies.
 
-## Community and Conferences
+## Community
 
 - [Software Architecture Monday](https://www.youtube.com/@markrichards5014) - Mark Richards' weekly YouTube series breaking down architecture concepts in 10-minute episodes.
 - [Martin Fowler's Blog](https://martinfowler.com/) - Decades of essential writing on refactoring, microservices, and enterprise architecture patterns.

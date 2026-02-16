@@ -15,6 +15,24 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 - Make sure your text editor is set to remove trailing whitespace.
 - The pull request should have a useful title and include a link to the resource and why it should be included.
 
+
+## Inclusion Criteria
+
+To keep this list useful and credible, new resources should meet these criteria:
+
+- **Maintained**: Prefer resources with visible maintenance activity (ideally within the last 12 months).
+- **Practical value**: Must be directly applicable in real software design and delivery work.
+- **Not a duplicate**: Should add clear value beyond existing entries.
+- **Clear ownership/source credibility**: Should come from a trusted source (maintained repo, official docs, respected practitioner/team).
+
+## Exclusion Criteria
+
+Submissions are likely to be rejected if they are:
+
+- Personal notes without broad practical value.
+- Dead or abandoned repositories.
+- Thin wrappers/duplicates of stronger existing resources.
+
 ## Updating Your Pull Request
 
 If the maintainers notice anything that we'd like changed, we'll ask you to edit your PR before we merge it. If you're not sure how to do that, [here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on the different ways you can update your PR.
