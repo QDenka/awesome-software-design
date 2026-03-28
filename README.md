@@ -90,6 +90,7 @@
 - [Terrastruct](https://terrastruct.com/) - Commercial platform for creating interactive architecture diagrams powered by D2.
 - [Structurizr](https://structurizr.com/) - Official C4 tooling by Simon Brown: architecture-as-code via DSL with interactive, zoomable diagrams.
 - [PlantUML](https://plantuml.com/) - Widely-adopted diagrams-as-code tool for UML/C4 and architecture visuals with strong IDE and CI integration.
+- [ReleaseRun](https://releaserun.com/) - Browser-based dependency health checkers for package.json, go.mod, Cargo.toml, requirements.txt, Gemfile, pom.xml, and more. Flags EOL packages and known CVEs.
 
 ## Architecture Verification (CI Rules / Fitness Functions)
 
