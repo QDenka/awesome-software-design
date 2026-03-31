@@ -130,6 +130,7 @@
 - [Release It! (2nd Edition) — Michael T. Nygard](https://pragprog.com/titles/mnee2/release-it-second-edition/) - Stability patterns (circuit breakers, bulkheads) and anti-patterns for designing production-ready distributed systems.
 - [Team Topologies — Matthew Skelton & Manuel Pais](https://teamtopologies.com/book) - Practical application of Conway's Law: team interaction modes, stream-aligned teams, platform teams, and cognitive load.
 - [Balancing Coupling in Software Design — Vlad Khononov](https://www.informit.com/store/balancing-coupling-in-software-design-universal-design-9780137353484) - Three-dimensional coupling model (strength, distance, volatility) with practical guidance for controlling dependencies.
+- [Software Design for Python Programmers — Ronald Mak](https://www.manning.com/books/software-design-for-python-programmers) - A book about design principles and patterns for building better Python software.
 
 ## Community
 
