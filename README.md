@@ -66,6 +66,7 @@
 - [Rust RFCs](https://github.com/rust-lang/rfcs) - Rust language design decisions captured as RFCs — one of the best public RFC processes.
 - [Next.js RFCs](https://github.com/vercel/next.js/discussions/categories/rfc) - Vercel's public RFC discussions for Next.js architectural changes and new features.
 - [Flutter Design Docs](https://github.com/flutter/flutter/wiki/Design-Documents) - Flutter's public design document process for major architectural decisions.
+- [reasoning-formats/reasoning-formats](https://github.com/reasoning-formats/reasoning-formats) - Schema-first decision records: YAML validated against JSON Schema, with reasoning in named fields and a companion format for the organizational context decisions are checked against.
 
 ## Documentation as Code
 
